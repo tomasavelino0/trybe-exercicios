@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100%;
+  margin-left: 40px;
+  background-color: #CCCCCC;
+}
+
+img {
+  width: 300px;
+  
+}
+
+h1 {
+  text-align: center;
+
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+#skills {
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 2px solid #474747;
+  
+}
+
+.first, .second, .third{
+  font-size: 20px;
+}
+
+.nacionalidade{
+  border-color: #474747;
+  border: 2px solid;
+  padding: 2px;
+  
+}
