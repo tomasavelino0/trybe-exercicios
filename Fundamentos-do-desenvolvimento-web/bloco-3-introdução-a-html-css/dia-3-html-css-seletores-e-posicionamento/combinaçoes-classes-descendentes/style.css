@@ -1,0 +1,51 @@
+.ordenadas{
+    background-color: yellow;
+}
+.par{
+  color: green;
+}
+.impar{
+    text-transform: uppercase;
+}
+
+.tags{
+    color: red;
+
+}
+.itali, h1{
+    font-size: 40px;
+    border: 1px black solid;
+}
+li{
+    font-size: 20px;
+}
+li em{
+    font-weight: bold;
+}
+.linguagens{
+    color: blue;
+}
+.java{
+    background-color: pink;
+}
+
+.first:hover{
+    color: orange;
+    font-weight: bold;
+}
+.second:hover{
+    color: green;
+    font-weight: bold;
+}
+.third:hover{
+    color: black;
+    font-weight: bold;
+}
+.fourt:hover{
+    color: yellow;
+    font-weight: bold;
+}
+.five:hover{
+    color: #036b52;
+    font-weight: bold;
+}
