@@ -53,7 +53,8 @@
         changeCenterColor(changeCenterContent)
         changeTitle(title)
         textToUpperCase(paragrafo)
-        tagPConsole(paragrafo)
+        // tagPConsole(paragrafo)
+        // console.log(paragrafo)
         
         
 
@@ -70,10 +71,11 @@
             title[0].innerText = `Exercício 5.1 - JavaScript`;
         }
         function textToUpperCase(paragrafo){
-            for(let i =0; i < paragrafo.length; i +=1){
-            paragrafo[i].style.textToUpperCase;
+          for(let paragraph of paragrafo){
+            paragraph.style.textTransform = 'uppercase';
+          }   
             }
-        }
+        
         function tagPConsole(paragrafo){
             for(let i =0; i < paragrafo.length; i += 1){
                 console.log(paragrafo[i])
