@@ -80,9 +80,55 @@
         const rightSection = createElementWithClass('section', 'right-content')
         mainContent.appendChild(rightSection)
 
-        const imgSectionLeft = createElementWithClass('img','small-image')
+        const imgSectionLeft = createElementWithClass('img', 'small-image')
         imgSectionLeft.setAttribute('src', 'https://picsum.photos/200')
         leftSection.appendChild(imgSectionLeft)
+
+
+        const arrNumbers = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+        const createUl = document.createElement('ul');
+
+        rightSection.appendChild(createUl);
+
+        for (const number of arrNumbers) {
+            let element = createLi(number);
+            addElementChild(createUl, element);
+        }
+
+        const createH3 = createElementWithClass('h3', 'description');
+        const createH32 = createElementWithClass('h3', 'description');
+        const createH33 = createElementWithClass('h3', 'description');
+        
+        addElementChild(mainContent,createH3)
+        addElementChild(mainContent,createH32)
+        addElementChild(mainContent,createH33)
+        mainContent.removeChild(leftSection)
+        
+        rightSection.style.margin = 'auto';
+        sectionCenter.style.backgroundColor = 'green';
+        const itemRv = document.getElementsByTagName('li')
+        const paiLi = document.getElementsByTagName('ul')[0];
+        paiLi.removeChild(itemRv[9])
+        paiLi.removeChild(itemRv[8])
+
+        
+
+        
+
+        
+
+
+                //FUNCOES
+
+        function createLi(text) {
+            let listItem = document.createElement('li');
+            listItem.innerText = text;
+            return listItem;
+            
+        }
+        function addElementChild(pai, filho) {
+            pai.appendChild(filho);
+        }
 
         function createElementWithClass(tag, classe) {
             let elemento = document.createElement(tag);
