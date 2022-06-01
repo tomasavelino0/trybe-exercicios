@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Forms viagem</title>
+</head>
+
+<body>
+    <header>
+        <h1>TrybeTrip, ganhe uma viagem paga.</h1>
+    </header>
+    <main>
+        <div class="">
+            <form action="" method="" id="trybe-form">
+                <label class="form-control" for="nome">Nome:<input class="form-control" id="nome" type="text"
+                        minlength="10" maxlength="40"></label>
+                <label class="form-control" for="email">Email:<input class="form-control" id="email" type="email"
+                        minlength="10" maxlength="50"></label>
+                <br>
+                <label for="destino-preferido">Destino preferido:</label>
+                <input type="radio" name="destino-preferido1">Cidade
+                <input type="radio" name="destino-preferido2">Campo
+                <input type="radio" name="destino-preferido3">Praia
+                <input type="radio" name="destino-preferido4">Montanhas
+                <br>
+                <br>
+                <label for="area-resposta">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+                    TrybeTrip?</label>
+                <textarea class="form-control" name="resposta" id="area-resposta" cols="50" rows="10"></textarea>
+                <br>
+                <label for="data-viagem">Qual a melhor data para realizar sua viagem?</label>
+                <br>
+                <input id="data-viagem" type="date">
+                <br>
+                <input id="box-anuncio" type="checkbox">
+                <label for="box-anuncio">Gostaria de receber outras incríveis oportunidades oferecidas pela
+                    Trybe?</label>
+                <br>
+                <input id="box-fotos" type="checkbox">
+                <label for="box-fotos">Concordo que imagens das minhas férias poderão ser usadas na divulgação de
+                    concursos futuros.</label>
+                <br>
+                <input class="btn btn-success" type="submit" value="Enviar" id="button-submit">
+                <input class="btn btn-warning" type="reset" name="reset-form" id="reset" value="Apagar">
+                
+            </form>
+            <hr>
+
+            <label for="data-inicio">Esse formulario iniciou</label>
+            <input id="data-inicio" type="date">
+            
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
