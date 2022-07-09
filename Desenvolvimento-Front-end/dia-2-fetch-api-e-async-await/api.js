@@ -1,7 +1,6 @@
 const cryptoApiUrl = `https://api.coincap.io/v2/assets`;
 const ul = document.getElementById
     ('list-crypto');
-    let number22 = 22.232323;
 
 const List10Crypto = async () => {
     try {
@@ -20,8 +19,3 @@ const List10Crypto = async () => {
     }
 };
 List10Crypto();
-
-const createLi = () => {
-    let li = document.createElement('li').innerText = `${name} (${symbol}): ${vwap24Hr} dolares.`
-    ul.appendChild(li);
-}
