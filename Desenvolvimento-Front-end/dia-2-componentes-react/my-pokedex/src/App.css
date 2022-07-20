@@ -1,0 +1,7 @@
+.pokemon{
+  border: 1px gray solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
