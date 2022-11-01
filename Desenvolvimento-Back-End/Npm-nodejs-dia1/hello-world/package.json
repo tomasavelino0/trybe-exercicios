@@ -1,0 +1,15 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simpsons.js",
+  "scripts": {
+    "start": "node simpsons.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tomas",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "1.4.10"
+  }
+}
