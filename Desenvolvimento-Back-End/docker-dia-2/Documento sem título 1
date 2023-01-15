@@ -1,0 +1,20 @@
+
+
+
+
+
+docker system prune -af
+
+
+# FROM chuanwen/cowsay:latest
+
+# ENTRYPOINT [ "/usr/games/cowsay" ]
+
+# CMD [ "#VQV Trybe" ]
+
+
+docker image build .
+
+CTRL + P E CTRL +  Q SAI DO CONTAINER SEM FINALIZAR ELE
+
+docker connect {nome-rede} {container}

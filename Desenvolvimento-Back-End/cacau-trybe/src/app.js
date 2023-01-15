@@ -1,6 +1,5 @@
 // src/app.js
 
-const express = require('express');
 const cacauTrybe = require('./cacauTrybe');
 
 const app = express();
@@ -34,5 +33,11 @@ app.get('/chocolates/brand/:brandId', async (req, res) => {
   res.status(200).json({ chocolates });
 });
 
+// src/app.js
+
+//...
+app.use((err, req, res, _next) => {
+  res.status(500).json({ message: `Algo deu errado! Mensagem: ${err.message}` });
+});
 
 module.exports = app;
